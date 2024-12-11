@@ -20,8 +20,8 @@ nav.maximize_window()
 
 nav.get("https://app2.pontomais.com.br/")
 
-nav.find_element(By.XPATH, '//*[@id="container-login"]/div[1]/div/div[4]/div[1]/login-form/pm-form/form/div/div/div[1]/pm-input/div/div/pm-text/div/input').send_keys("07184282345")
-nav.find_element(By.XPATH, '//*[@id="container-login"]/div[1]/div/div[4]/div[1]/login-form/pm-form/form/div/div/div[2]/pm-input/div/div/pm-password/div/input').send_keys("Innov@123")
+nav.find_element(By.XPATH, '//*[@id="container-login"]/div[1]/div/div[4]/div[1]/login-form/pm-form/form/div/div/div[1]/pm-input/div/div/pm-text/div/input').send_keys("231313131")
+nav.find_element(By.XPATH, '//*[@id="container-login"]/div[1]/div/div[4]/div[1]/login-form/pm-form/form/div/div/div[2]/pm-input/div/div/pm-password/div/input').send_keys("xxxxx")
 nav.find_element(By.XPATH, '//*[@id="container-login"]/div[1]/div/div[4]/div[1]/login-form/pm-button[1]/button').click()
 
 nav.find_element(By.XPATH, '/html/body/app-root/app-side-nav-outer-toolbar/app-header/header/dx-toolbar/div/div[3]/div[2]/dxi-item/pm-button/button/span').click()
