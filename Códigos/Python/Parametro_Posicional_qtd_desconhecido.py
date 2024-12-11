@@ -1,4 +1,4 @@
-def imprimir_parametros(*args):
+def imprimir_parametros(*args): #nao precisa ser args mas é uma boa prática o obrigatório é o asterisco
     qtd_parametros = len(args)
     print(f"\n Quantidade de parametros = {qtd_parametros}")
     for i, valor in enumerate(args):
@@ -9,3 +9,6 @@ imprimir_parametros("São Paulo", 10, 38, 23.78, "João")
 
 print("\n Chamada 2: ")
 imprimir_parametros(10, "São Paulo")
+
+
+##ele posiciona os argumentos e cada argumento vira um array com endereço localizavel usando for para definilos
